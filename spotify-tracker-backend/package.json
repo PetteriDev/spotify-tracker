@@ -7,8 +7,7 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "concurrently \"npm run start-express\" \"npm run start-flask\"",
     "start-express": "node index.js", 
-    "start-flask": "python search.py",
-    "build": "ng build --prod"
+    "start-flask": "python search.py"
   },
   "keywords": [],
   "author": "",

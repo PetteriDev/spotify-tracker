@@ -4,7 +4,10 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "concurrently \"npm run start-express\" \"npm run start-flask\"",
+    "start-express": "node index.js", 
+    "start-flask": "python search.py" 
   },
   "keywords": [],
   "author": "",
@@ -16,5 +19,8 @@
     "mongoose": "^7.2.2",
     "open": "^9.1.0",
     "openurl": "^1.1.1"
+  },
+  "devDependencies": {
+    "concurrently": "^8.2.0"
   }
 }

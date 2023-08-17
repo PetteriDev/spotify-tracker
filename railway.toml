@@ -1,7 +1,0 @@
-[build]
-frontend = "npm install && npm run build" # Build frontend
-backend = "npm install" # Install backend dependencies
-
-[run]
-backend = "npm run start-express" # Start backend server
-frontend = "npm run build && npm install -g serve && serve -s dist/spotify-tracker" # Start frontend server

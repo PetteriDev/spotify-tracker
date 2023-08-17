@@ -13,8 +13,5 @@ RUN npm install
 # Copy the rest of the application code to the working directory
 COPY . .
 
-# Expose the port that your backend app will run on
-EXPOSE 3000
-
-# Start the backend app using the "start-express" script defined in package.json
-CMD ["npm", "run", "start-express"]
+# Start the backend app using the "start" script defined in package.json
+CMD ["npm", "run", "start"]

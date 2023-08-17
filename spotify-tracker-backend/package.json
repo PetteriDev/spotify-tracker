@@ -6,7 +6,6 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node index.js",
-    "start-express": "node index.js", 
     "start-flask": "python search.py"
   },
   "keywords": [],
